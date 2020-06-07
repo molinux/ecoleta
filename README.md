@@ -2,4 +2,4 @@
 
 Marketplace para coleta de resíduos
 
-![Frontpage](assets/Frontpage.png)
+![Frontpage](public/assets/Frontpage.png)
