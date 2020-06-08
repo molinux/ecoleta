@@ -65,6 +65,9 @@ function handleSelectedItem(event) {
 
   const itemId = event.target.dataset.id
 
+  console.log('ITEM ID: ', itemId);
+  
+
   
   // Check item selected
   // Get selected items
@@ -90,6 +93,9 @@ function handleSelectedItem(event) {
     selectedItems.push(itemId)
 
   }
+
+  console.log('selectedItems: ', selectedItems);
+  
   
   // Update hidden field with selected items
   collectedItems.value = selectedItems
